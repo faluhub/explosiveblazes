@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "explosiveblazes",
+  "version": "${version}",
+  "name": "ExplosiveBlazes",
+  "description": "Fabric mod that summons fireballs instead of small fireballs for the blaze fireball attack.",
+  "authors": ["falu"],
+  "contact": {
+    "homepage": "https://github.com/FaluHub"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.falu.explosiveblazes.ExplosiveBlazes"]
+  },
+  "mixins": ["explosiveblazes.mixins.json"],
+  "accessWidener": "explosiveblazes.accesswidener",
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
